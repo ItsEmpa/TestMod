@@ -1,8 +1,8 @@
-package com.example.commands
+package com.github.itsempa.testmod.commands
 
-import com.example.ExampleMod
-import com.example.commands.SimpleCommand.ProcessCommandRunnable
-import com.example.utils.ChatUtils
+import com.github.itsempa.testmod.ExampleMod
+import com.github.itsempa.testmod.commands.SimpleCommand.ProcessCommandRunnable
+import com.github.itsempa.testmod.utils.ChatUtils
 import net.minecraft.command.ICommandSender
 import net.minecraft.util.BlockPos
 import net.minecraftforge.client.ClientCommandHandler

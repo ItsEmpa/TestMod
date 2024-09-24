@@ -1,9 +1,9 @@
-package com.example
+package com.github.itsempa.testmod
 
-import com.example.commands.CommandManager
-import com.example.config.ConfigManager
-import com.example.config.categories.ExampleModConfig
-import com.example.features.ChatFeatures
+import com.github.itsempa.testmod.commands.CommandManager
+import com.github.itsempa.testmod.config.ConfigManager
+import com.github.itsempa.testmod.config.categories.ExampleModConfig
+import com.github.itsempa.testmod.features.ChatFeatures
 import net.minecraftforge.common.MinecraftForge
 import net.minecraftforge.fml.common.Loader
 import net.minecraftforge.fml.common.Mod
@@ -28,7 +28,7 @@ class ExampleMod {
 
     companion object {
         lateinit var configManager: ConfigManager
-        const val MOD_ID = "examplemod"
+        const val MOD_ID = "testmod"
 
         @JvmStatic
         val version: String
